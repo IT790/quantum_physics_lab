@@ -1,0 +1,19 @@
+body {
+    background-color: white;
+}
+h1, h2, p {
+    color: black;
+    font: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#labcanvas {
+    background-color: aliceblue;
+    border: 2px;
+    border-color: black;
+    border-top: 4px;
+    border-bottom: 4px;
+    border-left: 4px;
+    border-right: 4px;
+    border-radius: 8px;
+    border-style: solid;
+}

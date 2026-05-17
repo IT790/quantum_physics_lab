@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Quantum Physics Lab</title>
+    <link rel = "icon" type = "image/x-icon" href = "assets/Proton_diagram.png">
+    <link rel="stylesheet" href="sheets/quantum_physics_lab_css_1.css">
+    <style>
+    </style>
+</head>
+<body>
+    <div id = "introduction">
+        <h1>Particle and Quantum Physics Lab</h1>
+        <p>This lab is a simulation of the behaviors of fundamental particles.<br>
+            It specifically focuses on the properties of different types of particles,<br>
+            such as mass, charge, spin and colour charge.
+        </p>
+        <p>The interactions of this simulation are not completely accurate.<br>
+            It is designed to teach properties of particles and interactions,<br>
+            but wave-like behaviors e.g. wavefunctions and probability distributions are not included.
+        </p>
+    </div>
+    <div id = "settings">
+        <input id = "style1" type = "radio" name = "style" value = "default">
+        <label for = "style1">style 1</label><br>
+        <input id = "style2" type = "radio" name = "style" value = "dark">
+        <label for = "style2">style 2</label><br>
+    </div>
+    <div id = "lab">
+        <canvas id = "labcanvas" width = "1000" height = "600"></canvas>
+        <h2>Event Log:</h2>
+        <ul id = "log"></ul>
+        <h2>Information</h2>
+        <p id = "information">Click a particle to begin</p>
+        <h6>Unfortunately this section is not yet complete</h2>
+        <input id = "edit" type = "text" placeholder = "None" disabled = true>
+        <button id = "submit" type = "button" onclick = "submit()" disabled = true>Confirm</button>
+        <script src = "scripts/quantum_physics_lab_script.js" defer></script>
+    </div>
+</body>
